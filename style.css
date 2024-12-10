@@ -1,0 +1,56 @@
+
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background-color: #2600ff;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+header h1 {
+    margin: 0;
+}
+nav {
+    background-color: #110125;
+    overflow: hidden;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+}
+.about, .skills, .projects, .contact {
+    margin-bottom: 40px;
+}
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+.skills li {
+    background-color: #eee;
+    margin: 5px 0;
+    padding: 8px;
+}
+footer {
+    background-color: #4709f0;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
